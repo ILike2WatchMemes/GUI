@@ -1,0 +1,371 @@
+local GUI = Instance.new("ScreenGui")
+local body = Instance.new("Frame")
+local TextLabel = Instance.new("TextLabel")
+local ImageButton = Instance.new("ImageButton")
+local menu = Instance.new("Frame")
+local PhantomForces = Instance.new("TextButton")
+local Jailbreak = Instance.new("TextButton")
+local Tobeadded = Instance.new("TextButton")
+local Tobeadded2 = Instance.new("TextButton")
+local top = Instance.new("Frame")
+local name = Instance.new("TextLabel")
+local close = Instance.new("ImageButton")
+local open = Instance.new("ImageButton")
+local menu_2 = Instance.new("ImageButton")
+local menu_3 = Instance.new("ImageButton")
+local TextButton = Instance.new("TextButton")
+local Credits = Instance.new("Frame")
+local cred1 = Instance.new("Frame")
+local cred1_2 = Instance.new("ImageButton")
+local cred1n = Instance.new("TextLabel")
+local cred2 = Instance.new("Frame")
+local cred2_2 = Instance.new("ImageButton")
+local cred2n = Instance.new("TextLabel")
+local cred3 = Instance.new("Frame")
+local cred3_2 = Instance.new("ImageButton")
+local cred3n = Instance.new("TextLabel")
+local cred4 = Instance.new("Frame")
+local cred4_2 = Instance.new("ImageButton")
+local cred4n = Instance.new("TextLabel")
+local TOP = Instance.new("Frame")
+local Close = Instance.new("ImageButton")
+local creditsn = Instance.new("TextLabel")
+local closed = false
+
+--Properties:
+
+GUI.Name = "GUI"
+GUI.Parent = game.CoreGui
+
+body.Name = "body#1"
+body.Parent = GUI
+body.AnchorPoint = Vector2.new(0.5, 0.5)
+body.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+body.Position = UDim2.new(0.5, 0, 0.5, 0)
+body.BorderSizePixel = 0
+body.Size = UDim2.new(0, 400, 0, 250)
+body.Active = true
+body.Draggable = false
+
+--credits
+
+Credits.Name = "Credits"
+Credits.Parent = GUI
+Credits.AnchorPoint = Vector2.new(0.5, 0.5)
+Credits.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+Credits.BorderSizePixel = 0
+Credits.Position = UDim2.new(0.5, 0, 0.75, 0)
+Credits.Size = UDim2.new(0, 300, 0, 120)
+Credits.Active = true
+Credits.Visible = false
+Credits.Draggable = false
+
+cred1.Name = "cred1"
+cred1.Parent = Credits
+cred1.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+cred1.BackgroundTransparency = 1.000
+cred1.BorderSizePixel = 0
+cred1.Position = UDim2.new(0.100000024, 0, -5.96046448e-08, 0)
+cred1.Size = UDim2.new(0, 100, 0, 60)
+
+cred1_2.Name = "cred1"
+cred1_2.Parent = cred1
+cred1_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+cred1_2.BackgroundTransparency = 1.000
+cred1_2.BorderSizePixel = 0
+cred1_2.Position = UDim2.new(0, 0, 0.498274326, 0)
+cred1_2.Size = UDim2.new(0, 100, 0, 30)
+cred1_2.Image = "rbxassetid://7320796790"
+
+cred1n.Name = "cred1n"
+cred1n.Parent = cred1
+cred1n.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+cred1n.BackgroundTransparency = 1.000
+cred1n.BorderSizePixel = 0
+cred1n.Position = UDim2.new(0, 0, -0.00166678429, 0)
+cred1n.Size = UDim2.new(0, 100, 0, 30)
+cred1n.Font = Enum.Font.SciFi
+cred1n.Text = "GUI Maker"
+cred1n.TextColor3 = Color3.fromRGB(255, 255, 255)
+cred1n.TextSize = 20.000
+
+cred2.Name = "cred2"
+cred2.Parent = Credits
+cred2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+cred2.BackgroundTransparency = 1.000
+cred2.BorderSizePixel = 0
+cred2.Position = UDim2.new(0.563333511, 0, 0, 0)
+cred2.Size = UDim2.new(0, 100, 0, 60)
+
+cred2_2.Name = "cred2"
+cred2_2.Parent = cred2
+cred2_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+cred2_2.BorderSizePixel = 0
+cred2_2.Position = UDim2.new(1.1920929e-07, 0, 0.483333349, 0)
+cred2_2.Size = UDim2.new(0, 100, 0, 30)
+cred2_2.Image = "rbxassetid://7321223664"
+
+cred2n.Name = "cred2n"
+cred2n.Parent = cred2
+cred2n.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+cred2n.BackgroundTransparency = 1.000
+cred2n.BorderSizePixel = 0
+cred2n.Position = UDim2.new(0.00666689873, 0, -0.00856328011, 0)
+cred2n.Size = UDim2.new(0, 100, 0, 30)
+cred2n.Font = Enum.Font.SciFi
+cred2n.Text = "Jailbreak"
+cred2n.TextColor3 = Color3.fromRGB(255, 255, 255)
+cred2n.TextSize = 20.000
+
+cred3.Name = "cred3"
+cred3.Parent = Credits
+cred3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+cred3.BackgroundTransparency = 1.000
+cred3.BorderSizePixel = 0
+cred3.Position = UDim2.new(0.103333235, 0, 0.5, 0)
+cred3.Size = UDim2.new(0, 100, 0, 60)
+
+cred3_2.Name = "cred3"
+cred3_2.Parent = cred3
+cred3_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+cred3_2.BorderSizePixel = 0
+cred3_2.Position = UDim2.new(-0.0199999809, 0, 0.502857089, 0)
+cred3_2.Size = UDim2.new(0, 100, 0, 30)
+cred3_2.Image = "rbxassetid://7321232508"
+
+cred3n.Name = "cred3n"
+cred3n.Parent = cred3
+cred3n.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+cred3n.BackgroundTransparency = 1.000
+cred3n.BorderSizePixel = 0
+cred3n.Position = UDim2.new(-0.0200002193, 0, -0.000632541254, 0)
+cred3n.Size = UDim2.new(0, 100, 0, 30)
+cred3n.Font = Enum.Font.SciFi
+cred3n.Text = "Phantom Forces"
+cred3n.TextColor3 = Color3.fromRGB(255, 255, 255)
+cred3n.TextSize = 20.000
+
+cred4.Name = "cred4"
+cred4.Parent = Credits
+cred4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+cred4.BackgroundTransparency = 1.000
+cred4.BorderSizePixel = 0
+cred4.Position = UDim2.new(0.566666663, 0, 0.5, 0)
+cred4.Size = UDim2.new(0, 100, 0, 60)
+
+cred4_2.Name = "cred4"
+cred4_2.Parent = cred4
+cred4_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+cred4_2.BorderSizePixel = 0
+cred4_2.Position = UDim2.new(-0.00999999978, 0, 0.494499445, 0)
+cred4_2.Size = UDim2.new(0, 100, 0, 30)
+cred4_2.Image = "rbxassetid://7321241452"
+
+cred4n.Name = "cred4n"
+cred4n.Parent = cred4
+cred4n.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+cred4n.BackgroundTransparency = 1.000
+cred4n.BorderSizePixel = 0
+cred4n.Position = UDim2.new(-0.00999999046, 0, -0.00151491165, 0)
+cred4n.Size = UDim2.new(0, 100, 0, 30)
+cred4n.Font = Enum.Font.SciFi
+cred4n.Text = "To be added"
+cred4n.TextColor3 = Color3.fromRGB(255, 255, 255)
+cred4n.TextSize = 20.000
+
+TOP.Name = "TOP"
+TOP.Parent = GUI
+TOP.AnchorPoint = Vector2.new(0.5, 0.5)
+TOP.BackgroundColor3 = Color3.fromRGB(32, 32, 32)
+TOP.BorderSizePixel = 0
+TOP.Position = UDim2.new(0.5, 0,0.685, 0)
+TOP.Size = UDim2.new(0, 300, 0, 30)
+TOP.Active = true
+TOP.Visible = false
+TOP.Draggable = false
+
+Close.Name = "Close"
+Close.Parent = TOP
+Close.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Close.BorderSizePixel = 0
+Close.Position = UDim2.new(0.899999976, 0, 0, 0)
+Close.Size = UDim2.new(0, 30, 0, 30)
+Close.Image = "rbxassetid://7314614786"
+Close.MouseButton1Down:connect(function()
+Credits.Visible = false
+TOP.Visible = false
+end)
+
+creditsn.Name = "creditsn"
+creditsn.Parent = TOP
+creditsn.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+creditsn.BackgroundTransparency = 1.000
+creditsn.BorderSizePixel = 0
+creditsn.Position = UDim2.new(0.100000009, 0, -0.0499999523, 0)
+creditsn.Size = UDim2.new(0, 240, 0, 30)
+creditsn.Font = Enum.Font.SciFi
+creditsn.Text = "Credits"
+creditsn.TextColor3 = Color3.fromRGB(255, 255, 255)
+creditsn.TextSize = 29
+
+TextButton.Parent = body
+TextButton.BackgroundColor3 = Color3.fromRGB(40,40,40)
+TextButton.BackgroundTransparency = 0
+TextButton.BorderSizePixel = 0
+TextButton.Position = UDim2.new(0.125, 0, 0.456, 0)
+TextButton.Size = UDim2.new(0, 300, 0, 50)
+TextButton.Font = Enum.Font.SciFi
+TextButton.Text = "Credits"
+TextButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton.TextSize = 40.000
+TextButton.MouseButton1Down:connect(function()
+Credits.Visible = true
+TOP.Visible = true
+end)
+
+menu.Name = "menu"
+menu.Parent = body
+menu.BackgroundColor3 = Color3.fromRGB(24, 24, 24)
+menu.BorderSizePixel = 0
+menu.Position = UDim2.new(0, 0,0.116, 0)
+menu.Size = UDim2.new(0, 125, 0, 220)
+menu.Visible = false
+
+PhantomForces.Name = "Phantom Forces"
+PhantomForces.Parent = menu
+PhantomForces.BackgroundColor3 = Color3.fromRGB(24, 24, 24)
+PhantomForces.BorderSizePixel = 0
+PhantomForces.Position = UDim2.new(0, 0, 0, 0)
+PhantomForces.Size = UDim2.new(0, 125, 0, 55)
+PhantomForces.Font = Enum.Font.SciFi
+PhantomForces.Text = "Phantom Forces"
+PhantomForces.TextColor3 = Color3.fromRGB(255, 255, 255)
+PhantomForces.TextSize = 18.000
+PhantomForces.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://bruh.keshsenpai.com/.lua"))()
+body.Visible = false
+	top.Visible = true
+	close.Visible = false
+	open.Visible = true
+	top.Draggable = true
+end)
+
+Jailbreak.Name = "Jailbreak"
+Jailbreak.Parent = menu
+Jailbreak.BackgroundColor3 = Color3.fromRGB(24, 24, 24)
+Jailbreak.BorderSizePixel = 0
+Jailbreak.Position = UDim2.new(0, 0, 0.25, 0)
+Jailbreak.Size = UDim2.new(0, 125, 0, 55)
+Jailbreak.Font = Enum.Font.SciFi
+Jailbreak.Text = "Jailbreak"
+Jailbreak.TextColor3 = Color3.fromRGB(255, 255, 255)
+Jailbreak.TextSize = 18.000
+Jailbreak.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Vynixius/main/Jailbreak/Jailbreak"))()
+body.Visible = false
+	top.Visible = true
+	close.Visible = false
+	open.Visible = true
+	top.Draggable = true
+end
+)
+
+Tobeadded.Name = "To be added"
+Tobeadded.Parent = menu
+Tobeadded.BackgroundColor3 = Color3.fromRGB(24, 24, 24)
+Tobeadded.BorderSizePixel = 0
+Tobeadded.Position = UDim2.new(0, 0, 0.5, 0)
+Tobeadded.Size = UDim2.new(0, 125, 0, 55)
+Tobeadded.Font = Enum.Font.SciFi
+Tobeadded.Text = "To be added"
+Tobeadded.TextColor3 = Color3.fromRGB(255, 255, 255)
+Tobeadded.TextSize = 18.000
+
+Tobeadded2.Name = "To be added#2"
+Tobeadded2.Parent = menu
+Tobeadded2.BackgroundColor3 = Color3.fromRGB(24, 24, 24)
+Tobeadded2.BorderSizePixel = 0
+Tobeadded2.Position = UDim2.new(0, 0, 0.75, 0)
+Tobeadded2.Size = UDim2.new(0, 125, 0, 55)
+Tobeadded2.Font = Enum.Font.SciFi
+Tobeadded2.Text = "To be added"
+Tobeadded2.TextColor3 = Color3.fromRGB(255, 255, 255)
+Tobeadded2.TextSize = 18.000
+
+top.Name = "top"
+top.Parent = GUI
+top.AnchorPoint = Vector2.new(0.5, 0.5)
+top.BackgroundColor3 = Color3.fromRGB(32, 32, 32)
+top.BorderSizePixel = 0
+top.Position = UDim2.new(0.5, 0, 0.40, 0)
+top.Size = UDim2.new(0, 400, 0, 30)
+top.Draggable = false
+
+name.Name = "name"
+name.Parent = top
+name.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+name.BackgroundTransparency = 1.000
+name.BorderSizePixel = 0
+name.Position = UDim2.new(0.0375000015, 0, 0, 0)
+name.Size = UDim2.new(0, 369, 0, 30)
+name.Font = Enum.Font.SciFi
+name.Text = "SPXE | V1"
+name.TextColor3 = Color3.fromRGB(255, 255, 255)
+name.TextSize = 29.000
+
+open.Name = "open"
+open.Parent = top
+open.BackgroundColor3 = Color3.fromRGB(255,255,255)
+open.BorderSizePixel = 0
+open.Position = UDim2.new(0.922499895, 0, 0, 0)
+open.Size = UDim2.new(0, 30, 0, 30)
+open.Image = "rbxassetid://7314169220"
+open.MouseButton1Down:connect(function()
+	body.Visible = true
+	top.Active = true
+	close.Visible = true
+	open.Visible = false
+	closed = false
+	top.Draggable = false
+top.Position = UDim2.new(0.5, 0, 0.40, 0)
+end)
+
+close.Name = "close"
+close.Parent = top
+close.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+close.BorderSizePixel = 0
+close.Position = UDim2.new(0.922499895, 0, 0, 0)
+close.Size = UDim2.new(0, 30, 0, 30)
+close.Image = "rbxassetid://7314614786"
+close.MouseButton1Down:connect(function()
+	body.Visible = false
+	top.Visible = true
+	close.Visible = false
+	open.Visible = true
+top.Position = UDim2.new(0.903, 0,0.984, 0)
+end)
+
+menu_2.Name = "menu"
+menu_2.Parent = top
+menu_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+menu_2.BorderSizePixel = 0
+menu_2.Size = UDim2.new(0, 30, 0, 30)
+menu_2.Image = "rbxassetid://7313906462"
+menu_2.MouseButton1Down:connect(function()
+	menu.Visible = true
+	menu_2.Visible = false
+	menu_3.Visible = true
+end)
+
+menu_3.Name = "menu"
+menu_3.Parent = top
+menu_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+menu_3.BorderSizePixel = 0
+menu_3.Size = UDim2.new(0, 30, 0, 30)
+menu_3.Image = "rbxassetid://7313906462"
+menu_3.MouseButton1Down:connect(function()
+	menu.Visible = false
+	menu_3.Visible = false
+	menu_2.Visible = true
+end)
+--Properties:
