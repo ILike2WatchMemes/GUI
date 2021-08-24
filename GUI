@@ -1,1 +1,371 @@
-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
+local GUI = Instance.new("ScreenGui")
+local body = Instance.new("Frame")
+local TextLabel = Instance.new("TextLabel")
+local ImageButton = Instance.new("ImageButton")
+local menu = Instance.new("Frame")
+local PhantomForces = Instance.new("TextButton")
+local Jailbreak = Instance.new("TextButton")
+local Tobeadded = Instance.new("TextButton")
+local Tobeadded2 = Instance.new("TextButton")
+local top = Instance.new("Frame")
+local name = Instance.new("TextLabel")
+local close = Instance.new("ImageButton")
+local open = Instance.new("ImageButton")
+local menu_2 = Instance.new("ImageButton")
+local menu_3 = Instance.new("ImageButton")
+local TextButton = Instance.new("TextButton")
+local Credits = Instance.new("Frame")
+local cred1 = Instance.new("Frame")
+local cred1_2 = Instance.new("ImageButton")
+local cred1n = Instance.new("TextLabel")
+local cred2 = Instance.new("Frame")
+local cred2_2 = Instance.new("ImageButton")
+local cred2n = Instance.new("TextLabel")
+local cred3 = Instance.new("Frame")
+local cred3_2 = Instance.new("ImageButton")
+local cred3n = Instance.new("TextLabel")
+local cred4 = Instance.new("Frame")
+local cred4_2 = Instance.new("ImageButton")
+local cred4n = Instance.new("TextLabel")
+local TOP = Instance.new("Frame")
+local Close = Instance.new("ImageButton")
+local creditsn = Instance.new("TextLabel")
+local closed = false
+
+--Properties:
+
+GUI.Name = "GUI"
+GUI.Parent = game.CoreGui
+
+body.Name = "body#1"
+body.Parent = GUI
+body.AnchorPoint = Vector2.new(0.5, 0.5)
+body.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+body.Position = UDim2.new(0.5, 0, 0.5, 0)
+body.BorderSizePixel = 0
+body.Size = UDim2.new(0, 400, 0, 250)
+body.Active = true
+body.Draggable = false
+
+--credits
+
+Credits.Name = "Credits"
+Credits.Parent = GUI
+Credits.AnchorPoint = Vector2.new(0.5, 0.5)
+Credits.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+Credits.BorderSizePixel = 0
+Credits.Position = UDim2.new(0.5, 0, 0.75, 0)
+Credits.Size = UDim2.new(0, 300, 0, 120)
+Credits.Active = true
+Credits.Visible = false
+Credits.Draggable = false
+
+cred1.Name = "cred1"
+cred1.Parent = Credits
+cred1.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+cred1.BackgroundTransparency = 1.000
+cred1.BorderSizePixel = 0
+cred1.Position = UDim2.new(0.100000024, 0, -5.96046448e-08, 0)
+cred1.Size = UDim2.new(0, 100, 0, 60)
+
+cred1_2.Name = "cred1"
+cred1_2.Parent = cred1
+cred1_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+cred1_2.BackgroundTransparency = 1.000
+cred1_2.BorderSizePixel = 0
+cred1_2.Position = UDim2.new(0, 0, 0.498274326, 0)
+cred1_2.Size = UDim2.new(0, 100, 0, 30)
+cred1_2.Image = "rbxassetid://7320796790"
+
+cred1n.Name = "cred1n"
+cred1n.Parent = cred1
+cred1n.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+cred1n.BackgroundTransparency = 1.000
+cred1n.BorderSizePixel = 0
+cred1n.Position = UDim2.new(0, 0, -0.00166678429, 0)
+cred1n.Size = UDim2.new(0, 100, 0, 30)
+cred1n.Font = Enum.Font.SciFi
+cred1n.Text = "GUI Maker"
+cred1n.TextColor3 = Color3.fromRGB(255, 255, 255)
+cred1n.TextSize = 20.000
+
+cred2.Name = "cred2"
+cred2.Parent = Credits
+cred2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+cred2.BackgroundTransparency = 1.000
+cred2.BorderSizePixel = 0
+cred2.Position = UDim2.new(0.563333511, 0, 0, 0)
+cred2.Size = UDim2.new(0, 100, 0, 60)
+
+cred2_2.Name = "cred2"
+cred2_2.Parent = cred2
+cred2_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+cred2_2.BorderSizePixel = 0
+cred2_2.Position = UDim2.new(1.1920929e-07, 0, 0.483333349, 0)
+cred2_2.Size = UDim2.new(0, 100, 0, 30)
+cred2_2.Image = "rbxassetid://7321223664"
+
+cred2n.Name = "cred2n"
+cred2n.Parent = cred2
+cred2n.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+cred2n.BackgroundTransparency = 1.000
+cred2n.BorderSizePixel = 0
+cred2n.Position = UDim2.new(0.00666689873, 0, -0.00856328011, 0)
+cred2n.Size = UDim2.new(0, 100, 0, 30)
+cred2n.Font = Enum.Font.SciFi
+cred2n.Text = "Jailbreak"
+cred2n.TextColor3 = Color3.fromRGB(255, 255, 255)
+cred2n.TextSize = 20.000
+
+cred3.Name = "cred3"
+cred3.Parent = Credits
+cred3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+cred3.BackgroundTransparency = 1.000
+cred3.BorderSizePixel = 0
+cred3.Position = UDim2.new(0.103333235, 0, 0.5, 0)
+cred3.Size = UDim2.new(0, 100, 0, 60)
+
+cred3_2.Name = "cred3"
+cred3_2.Parent = cred3
+cred3_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+cred3_2.BorderSizePixel = 0
+cred3_2.Position = UDim2.new(-0.0199999809, 0, 0.502857089, 0)
+cred3_2.Size = UDim2.new(0, 100, 0, 30)
+cred3_2.Image = "rbxassetid://7321232508"
+
+cred3n.Name = "cred3n"
+cred3n.Parent = cred3
+cred3n.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+cred3n.BackgroundTransparency = 1.000
+cred3n.BorderSizePixel = 0
+cred3n.Position = UDim2.new(-0.0200002193, 0, -0.000632541254, 0)
+cred3n.Size = UDim2.new(0, 100, 0, 30)
+cred3n.Font = Enum.Font.SciFi
+cred3n.Text = "Phantom Forces"
+cred3n.TextColor3 = Color3.fromRGB(255, 255, 255)
+cred3n.TextSize = 20.000
+
+cred4.Name = "cred4"
+cred4.Parent = Credits
+cred4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+cred4.BackgroundTransparency = 1.000
+cred4.BorderSizePixel = 0
+cred4.Position = UDim2.new(0.566666663, 0, 0.5, 0)
+cred4.Size = UDim2.new(0, 100, 0, 60)
+
+cred4_2.Name = "cred4"
+cred4_2.Parent = cred4
+cred4_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+cred4_2.BorderSizePixel = 0
+cred4_2.Position = UDim2.new(-0.00999999978, 0, 0.494499445, 0)
+cred4_2.Size = UDim2.new(0, 100, 0, 30)
+cred4_2.Image = "rbxassetid://7321241452"
+
+cred4n.Name = "cred4n"
+cred4n.Parent = cred4
+cred4n.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+cred4n.BackgroundTransparency = 1.000
+cred4n.BorderSizePixel = 0
+cred4n.Position = UDim2.new(-0.00999999046, 0, -0.00151491165, 0)
+cred4n.Size = UDim2.new(0, 100, 0, 30)
+cred4n.Font = Enum.Font.SciFi
+cred4n.Text = "To be added"
+cred4n.TextColor3 = Color3.fromRGB(255, 255, 255)
+cred4n.TextSize = 20.000
+
+TOP.Name = "TOP"
+TOP.Parent = GUI
+TOP.AnchorPoint = Vector2.new(0.5, 0.5)
+TOP.BackgroundColor3 = Color3.fromRGB(32, 32, 32)
+TOP.BorderSizePixel = 0
+TOP.Position = UDim2.new(0.5, 0,0.685, 0)
+TOP.Size = UDim2.new(0, 300, 0, 30)
+TOP.Active = true
+TOP.Visible = false
+TOP.Draggable = false
+
+Close.Name = "Close"
+Close.Parent = TOP
+Close.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Close.BorderSizePixel = 0
+Close.Position = UDim2.new(0.899999976, 0, 0, 0)
+Close.Size = UDim2.new(0, 30, 0, 30)
+Close.Image = "rbxassetid://7314614786"
+Close.MouseButton1Down:connect(function()
+Credits.Visible = false
+TOP.Visible = false
+end)
+
+creditsn.Name = "creditsn"
+creditsn.Parent = TOP
+creditsn.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+creditsn.BackgroundTransparency = 1.000
+creditsn.BorderSizePixel = 0
+creditsn.Position = UDim2.new(0.100000009, 0, -0.0499999523, 0)
+creditsn.Size = UDim2.new(0, 240, 0, 30)
+creditsn.Font = Enum.Font.SciFi
+creditsn.Text = "Credits"
+creditsn.TextColor3 = Color3.fromRGB(255, 255, 255)
+creditsn.TextSize = 29
+
+TextButton.Parent = body
+TextButton.BackgroundColor3 = Color3.fromRGB(40,40,40)
+TextButton.BackgroundTransparency = 0
+TextButton.BorderSizePixel = 0
+TextButton.Position = UDim2.new(0.125, 0, 0.456, 0)
+TextButton.Size = UDim2.new(0, 300, 0, 50)
+TextButton.Font = Enum.Font.SciFi
+TextButton.Text = "Credits"
+TextButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton.TextSize = 40.000
+TextButton.MouseButton1Down:connect(function()
+Credits.Visible = true
+TOP.Visible = true
+end)
+
+menu.Name = "menu"
+menu.Parent = body
+menu.BackgroundColor3 = Color3.fromRGB(24, 24, 24)
+menu.BorderSizePixel = 0
+menu.Position = UDim2.new(0, 0,0.116, 0)
+menu.Size = UDim2.new(0, 125, 0, 220)
+menu.Visible = false
+
+PhantomForces.Name = "Phantom Forces"
+PhantomForces.Parent = menu
+PhantomForces.BackgroundColor3 = Color3.fromRGB(24, 24, 24)
+PhantomForces.BorderSizePixel = 0
+PhantomForces.Position = UDim2.new(0, 0, 0, 0)
+PhantomForces.Size = UDim2.new(0, 125, 0, 55)
+PhantomForces.Font = Enum.Font.SciFi
+PhantomForces.Text = "Phantom Forces"
+PhantomForces.TextColor3 = Color3.fromRGB(255, 255, 255)
+PhantomForces.TextSize = 18.000
+PhantomForces.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://bruh.keshsenpai.com/.lua"))()
+body.Visible = false
+	top.Visible = true
+	close.Visible = false
+	open.Visible = true
+	top.Draggable = true
+end)
+
+Jailbreak.Name = "Jailbreak"
+Jailbreak.Parent = menu
+Jailbreak.BackgroundColor3 = Color3.fromRGB(24, 24, 24)
+Jailbreak.BorderSizePixel = 0
+Jailbreak.Position = UDim2.new(0, 0, 0.25, 0)
+Jailbreak.Size = UDim2.new(0, 125, 0, 55)
+Jailbreak.Font = Enum.Font.SciFi
+Jailbreak.Text = "Jailbreak"
+Jailbreak.TextColor3 = Color3.fromRGB(255, 255, 255)
+Jailbreak.TextSize = 18.000
+Jailbreak.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Vynixius/main/Jailbreak/Jailbreak"))()
+body.Visible = false
+	top.Visible = true
+	close.Visible = false
+	open.Visible = true
+	top.Draggable = true
+end
+)
+
+Tobeadded.Name = "To be added"
+Tobeadded.Parent = menu
+Tobeadded.BackgroundColor3 = Color3.fromRGB(24, 24, 24)
+Tobeadded.BorderSizePixel = 0
+Tobeadded.Position = UDim2.new(0, 0, 0.5, 0)
+Tobeadded.Size = UDim2.new(0, 125, 0, 55)
+Tobeadded.Font = Enum.Font.SciFi
+Tobeadded.Text = "To be added"
+Tobeadded.TextColor3 = Color3.fromRGB(255, 255, 255)
+Tobeadded.TextSize = 18.000
+
+Tobeadded2.Name = "To be added#2"
+Tobeadded2.Parent = menu
+Tobeadded2.BackgroundColor3 = Color3.fromRGB(24, 24, 24)
+Tobeadded2.BorderSizePixel = 0
+Tobeadded2.Position = UDim2.new(0, 0, 0.75, 0)
+Tobeadded2.Size = UDim2.new(0, 125, 0, 55)
+Tobeadded2.Font = Enum.Font.SciFi
+Tobeadded2.Text = "To be added"
+Tobeadded2.TextColor3 = Color3.fromRGB(255, 255, 255)
+Tobeadded2.TextSize = 18.000
+
+top.Name = "top"
+top.Parent = GUI
+top.AnchorPoint = Vector2.new(0.5, 0.5)
+top.BackgroundColor3 = Color3.fromRGB(32, 32, 32)
+top.BorderSizePixel = 0
+top.Position = UDim2.new(0.5, 0, 0.40, 0)
+top.Size = UDim2.new(0, 400, 0, 30)
+top.Draggable = false
+
+name.Name = "name"
+name.Parent = top
+name.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+name.BackgroundTransparency = 1.000
+name.BorderSizePixel = 0
+name.Position = UDim2.new(0.0375000015, 0, 0, 0)
+name.Size = UDim2.new(0, 369, 0, 30)
+name.Font = Enum.Font.SciFi
+name.Text = "SPXE | V1"
+name.TextColor3 = Color3.fromRGB(255, 255, 255)
+name.TextSize = 29.000
+
+open.Name = "open"
+open.Parent = top
+open.BackgroundColor3 = Color3.fromRGB(255,255,255)
+open.BorderSizePixel = 0
+open.Position = UDim2.new(0.922499895, 0, 0, 0)
+open.Size = UDim2.new(0, 30, 0, 30)
+open.Image = "rbxassetid://7314169220"
+open.MouseButton1Down:connect(function()
+	body.Visible = true
+	top.Active = true
+	close.Visible = true
+	open.Visible = false
+	closed = false
+	top.Draggable = false
+top.Position = UDim2.new(0.5, 0, 0.40, 0)
+end)
+
+close.Name = "close"
+close.Parent = top
+close.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+close.BorderSizePixel = 0
+close.Position = UDim2.new(0.922499895, 0, 0, 0)
+close.Size = UDim2.new(0, 30, 0, 30)
+close.Image = "rbxassetid://7314614786"
+close.MouseButton1Down:connect(function()
+	body.Visible = false
+	top.Visible = true
+	close.Visible = false
+	open.Visible = true
+top.Position = UDim2.new(0.903, 0,0.984, 0)
+end)
+
+menu_2.Name = "menu"
+menu_2.Parent = top
+menu_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+menu_2.BorderSizePixel = 0
+menu_2.Size = UDim2.new(0, 30, 0, 30)
+menu_2.Image = "rbxassetid://7313906462"
+menu_2.MouseButton1Down:connect(function()
+	menu.Visible = true
+	menu_2.Visible = false
+	menu_3.Visible = true
+end)
+
+menu_3.Name = "menu"
+menu_3.Parent = top
+menu_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+menu_3.BorderSizePixel = 0
+menu_3.Size = UDim2.new(0, 30, 0, 30)
+menu_3.Image = "rbxassetid://7313906462"
+menu_3.MouseButton1Down:connect(function()
+	menu.Visible = false
+	menu_3.Visible = false
+	menu_2.Visible = true
+end)
+--Properties:
